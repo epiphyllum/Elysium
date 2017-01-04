@@ -2,6 +2,8 @@ package nz.daved.elysium.misc
 
 import org.scalatest.{FlatSpec, Matchers}
 
+import identity._
+
 class IdentitiesTest extends FlatSpec with Matchers {
 
   "@identity" should "compile" in {
